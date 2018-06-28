@@ -1,4 +1,4 @@
-FROM hashicorp/packer:light
+FROM lpouzac/packer-gitlab
 MAINTAINER "Virsna ING <virsna.ing@augeo.org>"
 
 RUN apk update && apk add ruby
